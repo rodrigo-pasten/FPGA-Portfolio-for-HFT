@@ -1,0 +1,22 @@
+# Vivado Generated Files
+*.jou
+*.log
+*.pb
+*.wdb
+*.str
+*.os
+.Xil/
+project_*/
+*.bit
+*.dcp
+
+# Verilator Generated Files
+obj_dir/
+
+# Python/Bytecode
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/

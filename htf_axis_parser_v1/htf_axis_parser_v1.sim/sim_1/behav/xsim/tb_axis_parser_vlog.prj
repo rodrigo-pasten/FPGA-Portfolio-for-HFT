@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../htf_axis_parser_v1.srcs/sources_1/new/axis_parser.sv" \
+"../../../../htf_axis_parser_v1.srcs/sim_1/new/tb_axis_parser.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
