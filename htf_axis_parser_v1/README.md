@@ -25,12 +25,8 @@ The waveform below demonstrates the **zero-latency response**.
 
 ![Waveform showing 0-cycle latency](timing_diagram.png)
 
-*Note: In the simulation above, the transition occurs at T=X ns, coincident with the input change, proving no register delays were introduced.*
+*Note: In the simulation above, the transition occurs at T=45 ns, coincident with the input change, proving no register delays were introduced.*
 
-## Project Structure
-* `rtl/`: SystemVerilog source code (`axis_parser.sv`).
-* `tb/`: Self-checking testbench (`tb_axis_parser.sv`).
-* `docs/`: Verification evidence.
 
 ## Future Improvements
 * Add parameterization for variable header widths.
