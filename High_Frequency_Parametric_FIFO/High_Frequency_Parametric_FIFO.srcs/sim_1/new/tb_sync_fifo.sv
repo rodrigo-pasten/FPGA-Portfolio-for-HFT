@@ -97,7 +97,7 @@ module tb_sync_fifo();
         end
         #10;
         if (!empty) begin $display("  ERROR: Not empty!"); test_errors++; end
-        else $display("  ✓ Passed");
+        else $display("Passed");
     endtask
 
     task test_full_flag();
@@ -148,7 +148,7 @@ module tb_sync_fifo();
              $display("  ERROR: Mismatch! Wrote %d, Read %d (Data lost?)", count_filled, count_read);
              test_errors++;
         end else begin
-             $display("  ✓ Passed");
+             $display("Passed");
         end
     endtask
 
@@ -179,7 +179,7 @@ module tb_sync_fifo();
         
         $display("  Wrote %d, Read %d", wc+8, rc);
         if ((wc+8) != rc) begin $display("  ERROR: Mismatch"); test_errors++; end
-        else $display("  ✓ Passed");
+        else $display("Passed");
     endtask
 
     task test_zero_latency();
@@ -192,10 +192,10 @@ module tb_sync_fifo();
         #1;
         if (rd_data !== 32'hDEADC0DE) begin
             $display("  ERROR: Latch persistence failed. Got %h", rd_data); test_errors++;
-        end else $display("  ✓ Bypass Correct");
+        end else $display("Bypass Correct");
         
         @(negedge clk); rd_en=1; 
         @(negedge clk); rd_en=0;
-        $display("  ✓ Passed");
+        $display("Passed");
     endtask
 endmodule
