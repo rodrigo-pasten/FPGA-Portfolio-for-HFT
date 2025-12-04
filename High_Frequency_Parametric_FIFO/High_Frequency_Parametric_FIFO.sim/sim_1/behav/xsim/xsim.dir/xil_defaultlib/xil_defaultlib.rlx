@@ -1,0 +1,7 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+D:/FPGA/Projects/High_Frequency_Parametric_FIFO/High_Frequency_Parametric_FIFO.sim/sim_1/behav/xsim/glbl.v,1590624368,verilog,,,,glbl,,,,,,,,
+D:/FPGA/Projects/High_Frequency_Parametric_FIFO/High_Frequency_Parametric_FIFO.srcs/sim_1/new/tb_sync_fifo.sv,1764803424,systemVerilog,,,,tb_sync_fifo,,,,,,,,
+D:/FPGA/Projects/High_Frequency_Parametric_FIFO/High_Frequency_Parametric_FIFO.srcs/sources_1/new/sync_fifo.sv,1764803024,systemVerilog,,D:/FPGA/Projects/High_Frequency_Parametric_FIFO/High_Frequency_Parametric_FIFO.srcs/sim_1/new/tb_sync_fifo.sv,,sync_fifo,,,,,,,,
